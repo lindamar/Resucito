@@ -13,5 +13,5 @@
 
 Route::get('/', function()
 {
-	return View::make('sitio/inicio');
+	return View::make('hello');
 });

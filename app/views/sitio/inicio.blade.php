@@ -6,7 +6,9 @@
         <link rel="stylesheet" type="text/css" href="/css/camino.css">
     </head>
     <body>
-        <h1>Web de los Cantos del Camino Neocatecumenal</h1>
-        <h2>Pagina de Inicio</h2>
+        <section class="content">
+            <h1>Web de los Cantos del Camino Neocatecumenal</h1>
+            <h2>Pagina de Inicio</h2>
+        </section>
     </body>
 </html>
