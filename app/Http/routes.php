@@ -11,10 +11,13 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+// Ruta de Inicio.
+Route::get('/', 'InicioController@index');
 
+// Ruta de Home
 Route::get('home', 'HomeController@index');
 
+// Filtro de Autentificacion
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
